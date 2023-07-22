@@ -1,4 +1,149 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
 .app{
-    color: aqua;
-    /* border: 1pt solid black; */
+    color: black;
+}
+.qo-logo{
+    width: 100px;
+    padding: 15px;
+    cursor: pointer;
+}
+.qo-header{
+    display: flex;
+    align-items: center;
+    border: 1px solid #c2c0c0;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+.qo-header-nav{
+    width: 100%;
+}
+.qo-header-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.qo-header-nav > ul > li{
+   padding: 0 15px;
+   margin: 15px;
+   list-style: none;
+   color: black;
+   font-size: 18px;
+   font-weight: 600;
+}
+.qo-section{
+    margin: 35px 0;
+}
+.qo-container{
+   margin-left: 45px;
+   margin-right: 45px;
+}
+
+.qo-search{
+    padding: 15px 25px;
+    border: 2px solid #c2c0c0;
+    border-radius: 99px;
+    outline: none;
+}
+.qo-search-btn{
+    padding: 15px 25px;
+    background-color: #c2c0c0;
+    border-radius: 99px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.qo-card-container{
+    /* border: 1px solid #c2c0c0; */
+    border-radius: 12px;
+    height: 67vh;
+    cursor: pointer;
+}
+.qo-card{
+    /* border: 1px solid #c2c0c0; */
+    border-radius: 12px;
+    margin: 0 auto;
+    /* padding: 25px; */
+}
+.qo-card:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.qo-card:hover .qo-card-img{
+    /* width: 275px; */
+    /* height: 245px; */
+}
+.qo-card-img{
+    width: 280px;
+    height: 250px;
+    border-radius: 12px;
+    margin: 5px 0;
+}
+.qo-card-sec > p{
+    font-size: 17px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+.qo-card-sec > p.qo-content{
+    font-size: 15px;
+    font-weight: normal;
+    margin: 5px 0;
+}
+.qo-row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 15px;
+}
+.qo-order-action{
+    margin: 25px auto;
+}
+.qo-order-btn {
+    padding: 10px 45px;
+    border-radius: 99px;
+    color: #fff;
+    background-color: #08ba52fd;
+}
+/* CSS */
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
 }
